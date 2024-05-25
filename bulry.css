@@ -1,0 +1,22 @@
+.loading-text
+{
+   font-size: 50px;
+   color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 300px;
+}
+.bg{
+  background:url('https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80')
+no-repeat center center/cover;  
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   width: calc(100vw);
+   background-size: cover;
+   height: calc(100vh);
+   z-index: -1;
+   filter: blur(70px);
+}
